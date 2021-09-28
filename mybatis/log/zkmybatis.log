@@ -1,0 +1,28 @@
+[DEBUG][21-09-02][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-09-02][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-09-02][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-09-02][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-09-02][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-09-02][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][21-09-02][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1646464088.
+[DEBUG][21-09-02][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@62230c58]
+[DEBUG][21-09-02][com.zk.Mapper.UserMapper.getUserLike]==>  Preparing: select * from user where username like ?;
+[DEBUG][21-09-02][com.zk.Mapper.UserMapper.getUserLike]==> Parameters: %朱%(String)
+[DEBUG][21-09-02][com.zk.Mapper.UserMapper.getUserLike]<==      Total: 2
+[DEBUG][21-09-02][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@62230c58]
+[DEBUG][21-09-02][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@62230c58]
+[DEBUG][21-09-02][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1646464088 to pool.
+[DEBUG][21-09-02][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-09-02][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-09-02][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-09-02][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-09-02][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-09-02][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][21-09-02][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1646464088.
+[DEBUG][21-09-02][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@62230c58]
+[DEBUG][21-09-02][com.zk.Mapper.UserMapper.getUserLike]==>  Preparing: select * from user where username like ?;
+[DEBUG][21-09-02][com.zk.Mapper.UserMapper.getUserLike]==> Parameters: %朱%(String)
+[DEBUG][21-09-02][com.zk.Mapper.UserMapper.getUserLike]<==      Total: 2
+[DEBUG][21-09-02][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@62230c58]
+[DEBUG][21-09-02][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@62230c58]
+[DEBUG][21-09-02][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1646464088 to pool.

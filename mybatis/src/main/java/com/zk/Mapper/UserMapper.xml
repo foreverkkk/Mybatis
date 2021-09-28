@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zk.Mapper.UserMapper">
+<!--    查询所有用户-->
+    <select id="getuserlist" resultType="User">
+        select *
+        from user
+    </select>
+<!--    添加一个用户-->
+    <insert id="addUser" parameterType="User">
+        insert into
+            user(id,username,gender,age,adress,qq,enail)
+            values (#{id},#{username},#{gender},#{age},#{adress},#{qq},#{enail});
+    </insert>
+<!--    根据ID删除一个用户-->
+    <delete id="delUser" parameterType="int">
+        delete
+        from user
+        where id = #{id};
+    </delete>
+<!--    根据ID修改用户信息-->
+    <update id="updataUser" parameterType="map">
+        update user
+        set username = #{username}
+        where id = #{id};
+    </update>
+<!--    模糊查询-->
+    <select id="getUserLike" resultType="User">
+        select *
+        from user
+        where username
+        like #{username};
+    </select>
+
+</mapper>
